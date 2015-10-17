@@ -1,0 +1,6 @@
+C:\Users\Nilesh\Documents\Visual Studio 2012\Projects\ConsoleCsharpLearn\ConsoleCSharpinDepth\bin\Debug\ConsoleCSharpinDepth.exe.config
+C:\Users\Nilesh\Documents\Visual Studio 2012\Projects\ConsoleCsharpLearn\ConsoleCSharpinDepth\bin\Debug\ConsoleCSharpinDepth.exe
+C:\Users\Nilesh\Documents\Visual Studio 2012\Projects\ConsoleCsharpLearn\ConsoleCSharpinDepth\bin\Debug\ConsoleCSharpinDepth.pdb
+C:\Users\Nilesh\Documents\Visual Studio 2012\Projects\ConsoleCsharpLearn\ConsoleCSharpinDepth\obj\Debug\ConsoleCSharpinDepth.csprojResolveAssemblyReference.cache
+C:\Users\Nilesh\Documents\Visual Studio 2012\Projects\ConsoleCsharpLearn\ConsoleCSharpinDepth\obj\Debug\ConsoleCSharpinDepth.exe
+C:\Users\Nilesh\Documents\Visual Studio 2012\Projects\ConsoleCsharpLearn\ConsoleCSharpinDepth\obj\Debug\ConsoleCSharpinDepth.pdb

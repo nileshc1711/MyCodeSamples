@@ -1,0 +1,8 @@
+C:\Users\Nilesh\Documents\Visual Studio 2012\Projects\ConsoleCsharpLearn\ConsoleCsharpLearn\bin\Debug\ConsoleCsharpLearn.exe.config
+C:\Users\Nilesh\Documents\Visual Studio 2012\Projects\ConsoleCsharpLearn\ConsoleCsharpLearn\bin\Debug\ConsoleCsharpLearn.exe
+C:\Users\Nilesh\Documents\Visual Studio 2012\Projects\ConsoleCsharpLearn\ConsoleCsharpLearn\bin\Debug\ConsoleCsharpLearn.pdb
+C:\Users\Nilesh\Documents\Visual Studio 2012\Projects\ConsoleCsharpLearn\ConsoleCsharpLearn\bin\Debug\EntityFramework.dll
+C:\Users\Nilesh\Documents\Visual Studio 2012\Projects\ConsoleCsharpLearn\ConsoleCsharpLearn\bin\Debug\EntityFramework.xml
+C:\Users\Nilesh\Documents\Visual Studio 2012\Projects\ConsoleCsharpLearn\ConsoleCsharpLearn\obj\Debug\ConsoleCsharpLearn.exe
+C:\Users\Nilesh\Documents\Visual Studio 2012\Projects\ConsoleCsharpLearn\ConsoleCsharpLearn\obj\Debug\ConsoleCsharpLearn.pdb
+C:\Users\Nilesh\Documents\Visual Studio 2012\Projects\ConsoleCsharpLearn\ConsoleCsharpLearn\obj\Debug\ConsoleCsharpLearn.csprojResolveAssemblyReference.cache

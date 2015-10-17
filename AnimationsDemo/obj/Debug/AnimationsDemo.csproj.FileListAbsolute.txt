@@ -1,0 +1,5 @@
+C:\Users\Nilesh\Documents\Visual Studio 2012\Projects\ConsoleCsharpLearn\AnimationsDemo\bin\AnimationsDemo.dll
+C:\Users\Nilesh\Documents\Visual Studio 2012\Projects\ConsoleCsharpLearn\AnimationsDemo\bin\AnimationsDemo.pdb
+C:\Users\Nilesh\Documents\Visual Studio 2012\Projects\ConsoleCsharpLearn\AnimationsDemo\obj\Debug\AnimationsDemo.csprojResolveAssemblyReference.cache
+C:\Users\Nilesh\Documents\Visual Studio 2012\Projects\ConsoleCsharpLearn\AnimationsDemo\obj\Debug\AnimationsDemo.dll
+C:\Users\Nilesh\Documents\Visual Studio 2012\Projects\ConsoleCsharpLearn\AnimationsDemo\obj\Debug\AnimationsDemo.pdb

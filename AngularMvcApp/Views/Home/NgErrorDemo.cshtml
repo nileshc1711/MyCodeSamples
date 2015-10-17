@@ -1,0 +1,56 @@
+﻿@{
+    ViewBag.Title = "NgErrorDemo";
+}
+
+<div class="container theme-showcase form-group form-group-sm">
+    <div class="col-sm-5">
+<form name="myform" ng-submit="ctrl.Submit()">
+    <h2>NgErrorDemo</h2>
+    <input type="text" class="form-control username well span6" name="uname" required="" placeholder="Username"  ng-minlength="4" ng-model="ctrl.user.username" />
+    @*<span ng-show="myform.uname.$error.required">This is a required field</span>
+    <span ng-show="myform.uname.$error.minlength">Minimum length required is 4</span>
+    <span ng-show="myform.uname.$invalid">This field is invalid</span>*@
+
+    <input type="password" class="form-control username well span6"
+        name="pwd" placeholder="Password"
+        ng-model="ctrl.user.password"
+        required>
+   @* <span ng-show="myform.pwd.$error.required">This is a required field
+    </span>*@
+
+    @* This is the deom for NG-FORM as it supports nesting of Forms unlike traditional form Tag *@
+    <ng-form name="profile">
+        <input class="form-control well span6" name="firstname" type="text" placeholder="First Name" required ng-model="ctrl.user.profile.firstname" />
+        <input class="form-control well span6" name="middlename" type="text" placeholder="Middle Name"  ng-model="ctrl.user.profile.middlename" />
+        <input class="form-control well span6" name="lastname" type="text" placeholder="Last Name"  ng-model="ctrl.user.profile.lastname" />
+        <div class="row">
+            <div class="col-sm-6">
+        <input class="form-control well span6" type="date" name="dob" placeholder="Date of Birth" ng-model="ctrl.user.profile.dob" />
+            </div>
+            </div>
+        <span class="label label-danger form-control well span6 " ng-show="myform.profile.$invalid">
+            Please fill out the required information 
+        </span>
+    </ng-form>
+    <input type="submit" value="Submit" class="form-control" ng-disabled="myform.$invalid" />
+</form>
+
+        <div>
+            <h2>What are your favorite Sports</h2>
+            <div ng-repeat="sport in ctrl.sports">
+                <label class="label label-info" ng-bind="sport.label"></label>
+
+                <div>WIth Binding: 
+                    <input type="checkbox" ng-model="sport.selected" ng-true-value="YES" ng-false-value="NO" />
+                </div>
+                <div>Using ng-Checked :
+                    <input type="checkbox" ng-checked="sport.selected === 'YES'"/>
+                </div>
+                <div>Current State : {{sport.selected}}</div>
+            </div>
+
+
+        </div>
+
+        </div>
+    </div>

@@ -1,0 +1,6 @@
+C:\Users\Nilesh\Documents\Visual Studio 2012\Projects\ConsoleCsharpLearn\ConsoleDesignPatterns\bin\Debug\ConsoleDesignPatterns.exe.config
+C:\Users\Nilesh\Documents\Visual Studio 2012\Projects\ConsoleCsharpLearn\ConsoleDesignPatterns\obj\Debug\ConsoleDesignPatterns.csprojResolveAssemblyReference.cache
+C:\Users\Nilesh\Documents\Visual Studio 2012\Projects\ConsoleCsharpLearn\ConsoleDesignPatterns\bin\Debug\ConsoleDesignPatterns.exe
+C:\Users\Nilesh\Documents\Visual Studio 2012\Projects\ConsoleCsharpLearn\ConsoleDesignPatterns\bin\Debug\ConsoleDesignPatterns.pdb
+C:\Users\Nilesh\Documents\Visual Studio 2012\Projects\ConsoleCsharpLearn\ConsoleDesignPatterns\obj\Debug\ConsoleDesignPatterns.exe
+C:\Users\Nilesh\Documents\Visual Studio 2012\Projects\ConsoleCsharpLearn\ConsoleDesignPatterns\obj\Debug\ConsoleDesignPatterns.pdb

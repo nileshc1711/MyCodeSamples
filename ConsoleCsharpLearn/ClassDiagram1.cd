@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ConsoleCsharpLearn.AdventureWorks2008Entities">
+    <Position X="9.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AI9ADDUAKJAAQCgCIKMpAYAADABSAAAGjCABBARCgTQ=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConsoleCsharpLearn.Address" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>wQYAAAAAOApAAgIIIAEABNABAkAABCgwQIAIAFAQACg=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConsoleCsharpLearn.AddressType" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEICAAAAAAAAAAIAAAAAZBQBAgAARCAAAIAAAEAgAAg=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConsoleCsharpLearn.BusinessEntity" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIIACAAAAAAAAAIAAAAAABABAgBIACACAIAAAUgAABg=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConsoleCsharpLearn.BusinessEntityAddress" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QEAAAAEAAgIAAAIAAAAARNABAkAAECACAIAAAUwgABo=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConsoleCsharpLearn.BusinessEntityContact" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QIBAAAAAAkIAAAIAABECAJABAgBAACCCAIAVAUgAABg=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConsoleCsharpLearn.ContactType" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACCAAAAAAAAAIAABAAIIQAAgAAQCCAAAAQAEEAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConsoleCsharpLearn.CountryRegion" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAIQAAAAIAQCAgBAQCAAAAAAAEAIQAE=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConsoleCsharpLearn.Department" Collapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAACACAAAwAAgAIAAhABIAQAAgAAQCAAAAAABEAAAAE=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConsoleCsharpLearn.EmailAddress" Collapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAQAAAABAAAAAIBAAgIABABggBAACAjAIAAAUkAABg=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConsoleCsharpLearn.Employee" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gIliESiKBAiaCBKECIUBAxQDAilAACACAoAAG0iZCBg=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConsoleCsharpLearn.EmployeeDepartmentHistory" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>GIAAAAAAAgAAgApAIAACACAgGgAAICASIAAABVgAAZA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConsoleCsharpLearn.EmployeePayHistory" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAEAAAACAAAAQEIAABwCCAABCgAAACACAAAACUgAABA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConsoleCsharpLearn.JobCandidate" Collapsed="true">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQIABAAAAAAAAIAAAQCBAAAigAgACACAAAEAUgAABA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConsoleCsharpLearn.Password" Collapsed="true">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EICAAAAAAAACAAIAAAAAABABIgBIACBCAIBQAUgAAhg=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConsoleCsharpLearn.Person" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>kASACOBQCyMAAGqSIBETAVABCoAAgHBCDKYgBUiAABg=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConsoleCsharpLearn.PersonPhone" Collapsed="true">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AMwAAgAAAAAAAAMAQAAAQAAFAgBAACACAAACAUgAAJA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConsoleCsharpLearn.PhoneNumberType" Collapsed="true">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQCAAAAAAAAAAIAQAAAIAQBAgAAQCAABAACAEAIAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConsoleCsharpLearn.Shift" Collapsed="true">
+    <Position X="5.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAACACBAAAABAAJAAAACIAQAKgEgQCAAAAAAAEAACCA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConsoleCsharpLearn.StateProvince" Collapsed="true">
+    <Position X="7.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>oABCAAEAAAQAAAIQBAkCJBQRAgAIRiAAKIAAAEAIQAk=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

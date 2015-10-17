@@ -1,0 +1,88 @@
+﻿<!DOCTYPE html>
+
+<html ng-app="notesApp">
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <script src="~/Scripts/jquery-1.9.1.js"></script>
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+    <link href="~/Content/Style.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/3.3.4/cerulean/bootstrap.css" rel="stylesheet" />
+    <script src="~/Scripts/bootstrap.js"></script>
+    <script src="~/Scripts/angular.js"></script>
+</head>
+<body ng-controller="MainCtrl as ctrl ">
+    <div class="">
+        @RenderBody()
+    </div>
+    <script type="text/javascript">
+        angular.module('notesApp', [])
+        .controller('MainCtrl', [
+            function () {
+                var self = this;
+
+                var notes = [
+                    {
+                        id: 1,
+                        label: 'First Note',
+                        done: false,
+                        //someRandom: 31431
+                    },
+                    {
+                        id: 2,
+                        label: 'Second Note',
+                        done: false
+                    },
+                    {
+                        id: 3,
+                        label: 'Finished Third Note',
+                        done: true
+                    }
+                ];
+
+                self.notes1 = angular.copy(notes);
+                self.notes2 = angular.copy(notes);
+
+                self.changeNotes = function ()
+                {
+                    notes = [
+                        {
+                            id: 1,
+                            label: 'Changed Note',
+                            done: false,
+                            someRandom: 4242
+                        },
+                        {
+                            id: 2,
+                            label: 'Second Note',
+                            done: false
+                        },
+                        {
+                            id: 3,
+                            label: 'Finished Third Note',
+                            done: true
+                        }
+
+                    ];
+
+                    self.notes1 = angular.copy(notes);
+                    self.notes2 = angular.copy(notes);
+                };
+
+                self.Submit = function () {
+                    console.log('User clicked submit with ', self.user,self.user.profile);
+
+                };
+
+                self.sports = [
+                    { label: 'BasketBall', selected: 'NO' },
+                    { label: 'Cricket', selected: 'YES' },
+                    { label: 'FootBall', selected: 'YES' },
+                    { label: 'VolleyBall', selected: 'NO' },
+                ];
+            }
+        ]);
+    </script>
+</body>
+    
+</html>
