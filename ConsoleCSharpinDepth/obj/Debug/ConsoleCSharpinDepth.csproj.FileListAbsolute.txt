@@ -4,3 +4,8 @@ C:\Users\Nilesh\Documents\Visual Studio 2012\Projects\ConsoleCsharpLearn\Console
 C:\Users\Nilesh\Documents\Visual Studio 2012\Projects\ConsoleCsharpLearn\ConsoleCSharpinDepth\obj\Debug\ConsoleCSharpinDepth.csprojResolveAssemblyReference.cache
 C:\Users\Nilesh\Documents\Visual Studio 2012\Projects\ConsoleCsharpLearn\ConsoleCSharpinDepth\obj\Debug\ConsoleCSharpinDepth.exe
 C:\Users\Nilesh\Documents\Visual Studio 2012\Projects\ConsoleCsharpLearn\ConsoleCSharpinDepth\obj\Debug\ConsoleCSharpinDepth.pdb
+C:\Users\Nilesh\Documents\Visual Studio 2012\Projects\ConsoleCsharpLearn\ConsoleCSharpinDepth\obj\Debug\ConsoleCSharpinDepth.Properties.Resources.resources
+C:\Users\Nilesh\Documents\Visual Studio 2012\Projects\ConsoleCsharpLearn\ConsoleCSharpinDepth\obj\Debug\ConsoleCSharpinDepth.csproj.GenerateResource.Cache
+C:\Users\Nilesh\Documents\GitHub\MyCodeSamples\ConsoleCSharpinDepth\bin\Debug\ConsoleCSharpinDepth.exe.config
+C:\Users\Nilesh\Documents\GitHub\MyCodeSamples\ConsoleCSharpinDepth\obj\Debug\ConsoleCSharpinDepth.exe
+C:\Users\Nilesh\Documents\GitHub\MyCodeSamples\ConsoleCSharpinDepth\obj\Debug\ConsoleCSharpinDepth.pdb

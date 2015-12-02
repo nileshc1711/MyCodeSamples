@@ -6,3 +6,5 @@ C:\Users\Nilesh\Documents\Visual Studio 2012\Projects\ConsoleCsharpLearn\Console
 C:\Users\Nilesh\Documents\Visual Studio 2012\Projects\ConsoleCsharpLearn\ConsoleCsharpLearn\obj\Debug\ConsoleCsharpLearn.exe
 C:\Users\Nilesh\Documents\Visual Studio 2012\Projects\ConsoleCsharpLearn\ConsoleCsharpLearn\obj\Debug\ConsoleCsharpLearn.pdb
 C:\Users\Nilesh\Documents\Visual Studio 2012\Projects\ConsoleCsharpLearn\ConsoleCsharpLearn\obj\Debug\ConsoleCsharpLearn.csprojResolveAssemblyReference.cache
+C:\Users\Nilesh\Documents\GitHub\MyCodeSamples\ConsoleCsharpLearn\bin\Debug\ConsoleCsharpLearn.exe.config
+C:\Users\Nilesh\Documents\GitHub\MyCodeSamples\ConsoleCsharpLearn\obj\Debug\ConsoleCsharpLearn.exe
