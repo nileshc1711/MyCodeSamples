@@ -19,7 +19,7 @@ namespace ConsoleCSharpinDepth
         }
 
         public void Say(String message) {
-            Console.WriteLine("{0} says: {1}", message);
+            Console.WriteLine("{0} says: {1}",name, message);
         }
     }
 

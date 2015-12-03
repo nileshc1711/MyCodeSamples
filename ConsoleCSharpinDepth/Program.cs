@@ -8,15 +8,18 @@ using System.Xml.Linq;
 
 namespace ConsoleCSharpinDepth
 {
-    
+
 
     class Program
     {
-       
+
 
         static void Main(string[] args)
         {
-        
+            int i = 10;
+            double d = i;
+
+
             #region Chapter 1 - Starting- Simple DataTypes
             var products = Product3.GetSampleProducts();
 
@@ -103,6 +106,28 @@ namespace ConsoleCSharpinDepth
 
 
             #endregion
+
+            #region chapter 3 Generics
+            String text = @"Do you like green eggs and ham?
+                            I do not like them, Sam-I-am.
+                            I do not like green eggs and ham.";
+
+            var frequencies = Generics.CountWords(text);
+
+            foreach (KeyValuePair<String, Int32> entry in frequencies) {
+
+                String word = entry.Key;
+                Int32 count = entry.Value;
+                Console.WriteLine("{0} : {1}", word, count);
+            
+            }
+
+
+            Generics.DoConversion();
+
+            #endregion
+
+            
 
             Console.ReadKey();
         }
