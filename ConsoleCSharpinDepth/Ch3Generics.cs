@@ -33,12 +33,18 @@ namespace ConsoleCSharpinDepth
             return Math.Sqrt(x);
         }
 
+        public static Dos Dosoma(Soma dos) {
+
+            return new Dos();
+        }
 
         public static void DoConversion() {
 
             List<Int32> integers = new List<int> { 1, 2, 3, 4 };
 
             Converter<Int32, Double> converter = Generics.TakeSquareRoot;
+
+            Converter<Dos, Soma> con = Generics.Dosoma; // this is to demonstarte the covariance and contravariance
 
             var doubles = integers.ConvertAll(converter);
             foreach (double d in doubles) {
@@ -47,5 +53,10 @@ namespace ConsoleCSharpinDepth
 
         }
     }
+    public class Soma { }
+
+    public class Dos : Soma { }
+
+
     #endregion
 }
