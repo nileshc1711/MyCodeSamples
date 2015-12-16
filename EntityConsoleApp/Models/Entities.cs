@@ -10,7 +10,7 @@ namespace EntityConsoleApp.Models
 {
     public class Patient
     {
-        public Patient() 
+        public Patient()
         {
             Visits = new List<Visit>();
         }
@@ -22,7 +22,7 @@ namespace EntityConsoleApp.Models
         public List<Visit> Visits { get; set; }
     }
 
-    public class Visit 
+    public class Visit
     {
         public int Id { get; set; }
         public DateTime Date { get; set; }
@@ -32,28 +32,29 @@ namespace EntityConsoleApp.Models
         public int PatientId { get; set; }
     }
 
-    public class AnimalType 
+    public class AnimalType
     {
         public int Id { get; set; }
         public string TypeName { get; set; }
     }
 
-    public class Destination 
+    #region BreakAwayContext Entities
+    public class Destination
     {
-        
+
         public int DestinationId { get; set; }
-        
+
         public string Name { get; set; }
         public string Country { get; set; }
-        
+
         public string Description { get; set; }
-        
+
         public byte[] Photo { get; set; }
 
-        public List<Lodging> Lodgings { get; set; } 
+        public List<Lodging> Lodgings { get; set; }
     }
 
-    public class Lodging 
+    public class Lodging
     {
         public int LodgingId { get; set; }
         [MinLength(10)]
@@ -61,6 +62,26 @@ namespace EntityConsoleApp.Models
         public string Owner { get; set; }
         public bool IsResort { get; set; }
 
-        public Destination Destination { get; set; }  
+        public Destination Destination { get; set; }
     }
+
+    public class Trip
+    {
+        //[Key] ==> Eqivalent added in configuration cs file
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+        public Guid Identifier { get; set; }
+        public DateTime StartDate { get; set; }
+        public DateTime EndDate { get; set; }
+        public Decimal CostUSD { get; set; }
+
+    }
+
+    public class Person 
+    {
+        public int SocialSecurityNumber { get; set; }
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+    }
+
+    #endregion
 }

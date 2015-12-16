@@ -10,10 +10,13 @@ namespace EntityConsoleApp
     {
         static void Main(string[] args)
         {
-           // EntityTest.CreateNewPatient();
+            EntityTest.Initialize();
 
-           // EntityTest.Initialize();
-            EntityTest.InsertDestination();
+
+           // EntityTest.CreateNewPatient();
+           // EntityTest.InsertDestination();
+            EntityTest.InsertTrip();
+            EntityTest.InsertPerson();
         }
     }
 }

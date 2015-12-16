@@ -51,6 +51,39 @@ namespace EntityConsoleApp
            }
        }
 
+       public static void InsertTrip() 
+       {
+           var trip = new Trip() 
+           {
+               CostUSD = 800,
+               StartDate = new DateTime(2011,9,11),
+               EndDate = new DateTime(2011, 9, 21),
+           };
+
+           using (var context = new BreakAwayContext()) 
+           {
+               context.Trips.Add(trip);
+               context.SaveChanges();
+           }
+       }
+
+       internal static void InsertPerson()
+       {
+           var person = new Person { 
+           SocialSecurityNumber = 12345678,
+           FirstName = "Rowan",
+           LastName = "Miller"
+           
+           };
+
+           using (var context = new BreakAwayContext()) 
+           {
+               context.Persons.Add(person);
+               context.SaveChanges();
+           }
+
+       }
+
        public static void Initialize() 
        {
            Database.SetInitializer(new DropCreateDatabaseIfModelChanges<BreakAwayContext>());   

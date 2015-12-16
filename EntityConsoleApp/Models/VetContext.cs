@@ -4,6 +4,7 @@ using System.Data.Entity;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using EntityConsoleApp.ConfigurationMappers;
 
 namespace EntityConsoleApp.Models
 {
@@ -36,19 +37,28 @@ namespace EntityConsoleApp.Models
     {
         public DbSet<Destination> Destionations { get; set; }
         public DbSet<Lodging> Lodgings { get; set; }
+        public DbSet<Trip> Trips { get; set; }
+        public DbSet<Person> Persons { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<Destination>().Property(d => d.Name).IsRequired();
+            #region modelBuilder Exclusively used - replaced by Configurations classes
+            //modelBuilder.Entity<Destination>().Property(d => d.Name).IsRequired();
 
-            modelBuilder.Entity<Destination>().Property(d => d.Description).HasMaxLength(500);
+            //modelBuilder.Entity<Destination>().Property(d => d.Description).HasMaxLength(500);
 
-            modelBuilder.Entity<Destination>().Property(d => d.Photo).HasColumnType("image");
+            //modelBuilder.Entity<Destination>().Property(d => d.Photo).HasColumnType("image");
 
-            modelBuilder.Entity<Lodging>()
-                        .Property(l => l.Name).IsRequired().HasMaxLength(500);
+            //modelBuilder.Entity<Lodging>()
+            //            .Property(l => l.Name).IsRequired().HasMaxLength(500);
 
-            base.OnModelCreating(modelBuilder);
+            //base.OnModelCreating(modelBuilder);
+            #endregion
+
+            modelBuilder.Configurations.Add<Destination>( new DestinationConfiguration());
+            modelBuilder.Configurations.Add<Lodging>(new LodgingConfiguration());
+            modelBuilder.Configurations.Add<Trip>(new TripConfiguration());
+            modelBuilder.Configurations.Add<Person>(new PersonsConfiguration());
         }
     }
 }

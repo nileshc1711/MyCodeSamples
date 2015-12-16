@@ -47,6 +47,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ConfigurationMappers\DestinationConfiguration.cs" />
+    <Compile Include="ConfigurationMappers\LodgingConfiguration.cs" />
+    <Compile Include="ConfigurationMappers\PersonsConfiguration.cs" />
+    <Compile Include="ConfigurationMappers\TripConfiguration.cs" />
     <Compile Include="EntityTest.cs" />
     <Compile Include="Models\Entities.cs" />
     <Compile Include="Models\VetContext.cs" />
@@ -54,7 +58,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
