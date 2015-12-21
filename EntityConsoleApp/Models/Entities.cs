@@ -61,6 +61,7 @@ namespace EntityConsoleApp.Models
         public string Name { get; set; }
         public string Owner { get; set; }
         public bool IsResort { get; set; }
+        public decimal MilesFromNearestAirport { get; set; }
 
         public Destination Destination { get; set; }
     }
@@ -74,14 +75,69 @@ namespace EntityConsoleApp.Models
         public DateTime EndDate { get; set; }
         public Decimal CostUSD { get; set; }
 
+        [Timestamp]
+        public byte[] Rowversion { get; set; }
+
     }
 
-    public class Person 
+    public class Person
     {
+        /// <summary>
+        ///  instantiate a new Address which is complex type
+        ///  and would give DbUpdateException if not instantiated.
+        /// </summary>
+        public Person()
+        {
+            Address = new Address();
+            Info = new PersonalInfo { 
+            Height = new Measurement(),
+            Weight = new Measurement()
+            };
+        }
+        public int PersonId { get; set; }
+        //[ConcurrencyCheck] Configured in configuration file
         public int SocialSecurityNumber { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
+        public PersonalInfo Info { get; set; }
+        public Address Address { get; set; }
     }
 
+    #region Complex Type -Example
+    /// <summary>
+    /// Complex Type does not have a key Property
+    /// 1. Complex types have no key property.
+    ///2. Complex types can only contain primitive properties.
+    ///3. When used as a property in another class, the property must represent a single
+    ///instance. It cannot be a collection type.
+    /// </summary>
+    public class Address
+    {
+        /// <summary>
+        /// Id is not required by convention, but we can configure it to have ID field check modelBuilder in OnModelCreating
+        /// </summary>
+        public int AddressId { get; set; }
+        public string StreetAddress { get; set; }
+        public string City { get; set; }
+        public string State { get; set; }
+        public string ZipCode { get; set; }
+
+    }
+    /// <summary>
+    /// Complex and Nested Complex Types
+    /// (Non-Primitive)
+    /// </summary>
+    public class PersonalInfo
+    {
+        public Measurement Weight { get; set; }
+        public Measurement Height { get; set; }
+        public string DietryRestrictions { get; set; }
+    }
+    public class Measurement
+    {
+        public decimal Reading { get; set; }
+        public string Units { get; set; }
+    }
+    #endregion
     #endregion
 }

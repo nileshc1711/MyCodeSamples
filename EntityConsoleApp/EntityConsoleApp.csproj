@@ -47,6 +47,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ConfigurationMappers\AddressConfiguration.cs" />
     <Compile Include="ConfigurationMappers\DestinationConfiguration.cs" />
     <Compile Include="ConfigurationMappers\LodgingConfiguration.cs" />
     <Compile Include="ConfigurationMappers\PersonsConfiguration.cs" />

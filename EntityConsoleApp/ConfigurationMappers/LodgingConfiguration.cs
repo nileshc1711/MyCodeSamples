@@ -12,7 +12,8 @@ namespace EntityConsoleApp.ConfigurationMappers
     {
         public LodgingConfiguration() {
             Property(l => l.Name).IsRequired().HasMaxLength(200);
-        
+            Property(l => l.Owner).IsUnicode();
+            Property(l => l.MilesFromNearestAirport).HasPrecision(8, 1);
         }
     }
 }

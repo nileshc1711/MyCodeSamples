@@ -59,6 +59,8 @@ namespace EntityConsoleApp.Models
             modelBuilder.Configurations.Add<Lodging>(new LodgingConfiguration());
             modelBuilder.Configurations.Add<Trip>(new TripConfiguration());
             modelBuilder.Configurations.Add<Person>(new PersonsConfiguration());
+            modelBuilder.Configurations.Add<Address>(new AddressConfiguration());
+            modelBuilder.ComplexType<PersonalInfo>();
         }
     }
 }

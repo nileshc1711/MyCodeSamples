@@ -17,6 +17,8 @@ namespace EntityConsoleApp
            // EntityTest.InsertDestination();
             EntityTest.InsertTrip();
             EntityTest.InsertPerson();
+            EntityTest.UpdateTrip();
+            EntityTest.UpdatePerson();
         }
     }
 }

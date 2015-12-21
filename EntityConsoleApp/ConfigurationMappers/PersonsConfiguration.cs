@@ -13,8 +13,10 @@ namespace EntityConsoleApp.ConfigurationMappers
     {
         public PersonsConfiguration() 
         {
-            this.HasKey<int>(p => p.SocialSecurityNumber);
-            this.Property<int>(p => p.SocialSecurityNumber).HasDatabaseGeneratedOption(databaseGeneratedOption: DatabaseGeneratedOption.None);
+            //this.HasKey<int>(p => p.SocialSecurityNumber);
+            this.Property<int>(p => p.SocialSecurityNumber)
+                .HasDatabaseGeneratedOption(databaseGeneratedOption: DatabaseGeneratedOption.None)
+                .IsConcurrencyToken();
         }
     }
 }

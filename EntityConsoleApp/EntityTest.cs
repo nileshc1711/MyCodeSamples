@@ -84,6 +84,26 @@ namespace EntityConsoleApp
 
        }
 
+       internal static void UpdateTrip() 
+       {
+           using (var context = new BreakAwayContext()) 
+           {
+               var trip = context.Trips.FirstOrDefault();
+               trip.CostUSD = 750;
+               context.SaveChanges();
+           }
+       }
+
+       internal static void UpdatePerson() 
+       {
+           using (var context = new BreakAwayContext()) 
+           {
+               var person = context.Persons.FirstOrDefault();
+               person.FirstName = "Rowena";
+               context.SaveChanges();
+           }
+       }
+
        public static void Initialize() 
        {
            Database.SetInitializer(new DropCreateDatabaseIfModelChanges<BreakAwayContext>());   
