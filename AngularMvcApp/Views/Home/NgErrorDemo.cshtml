@@ -2,8 +2,8 @@
     ViewBag.Title = "NgErrorDemo";
 }
 
-<div class="container theme-showcase form-group form-group-sm">
-    <div class="col-sm-5">
+<div class="container theme-showcase form-group form-group-sm" ng-app="notesApp" >
+    <div class="col-sm-5" ng-controller="MainCtrl as ctrl" >
 <form name="myform" ng-submit="ctrl.Submit()">
     <h2>NgErrorDemo</h2>
     <input type="text" class="form-control username well span6" name="uname" required="" placeholder="Username"  ng-minlength="4" ng-model="ctrl.user.username" />

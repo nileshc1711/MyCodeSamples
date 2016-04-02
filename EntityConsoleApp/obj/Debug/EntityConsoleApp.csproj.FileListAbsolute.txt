@@ -4,3 +4,9 @@ C:\Users\Nilesh\Documents\Visual Studio 2012\Projects\ConsoleCsharpLearn\EntityC
 C:\Users\Nilesh\Documents\Visual Studio 2012\Projects\ConsoleCsharpLearn\EntityConsoleApp\obj\Debug\EntityConsoleApp.csprojResolveAssemblyReference.cache
 C:\Users\Nilesh\Documents\Visual Studio 2012\Projects\ConsoleCsharpLearn\EntityConsoleApp\obj\Debug\EntityConsoleApp.exe
 C:\Users\Nilesh\Documents\Visual Studio 2012\Projects\ConsoleCsharpLearn\EntityConsoleApp\obj\Debug\EntityConsoleApp.pdb
+C:\Users\Nilesh\Documents\GitHub\MyCodeSamples\EntityConsoleApp\bin\Debug\EntityConsoleApp.exe.config
+C:\Users\Nilesh\Documents\GitHub\MyCodeSamples\EntityConsoleApp\bin\Debug\EntityConsoleApp.exe
+C:\Users\Nilesh\Documents\GitHub\MyCodeSamples\EntityConsoleApp\bin\Debug\EntityConsoleApp.pdb
+C:\Users\Nilesh\Documents\GitHub\MyCodeSamples\EntityConsoleApp\obj\Debug\EntityConsoleApp.csprojResolveAssemblyReference.cache
+C:\Users\Nilesh\Documents\GitHub\MyCodeSamples\EntityConsoleApp\obj\Debug\EntityConsoleApp.exe
+C:\Users\Nilesh\Documents\GitHub\MyCodeSamples\EntityConsoleApp\obj\Debug\EntityConsoleApp.pdb

@@ -1,17 +1,18 @@
 ﻿<!DOCTYPE html>
 
-<html ng-app="notesApp">
+<html  >
 <head>
     <meta name="viewport" content="width=device-width" />
     <title>@ViewBag.Title</title>
     <script src="~/Scripts/jquery-1.9.1.js"></script>
     <link href="~/Content/bootstrap.css" rel="stylesheet" />
     <link href="~/Content/Style.css" rel="stylesheet" />
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/3.3.4/cerulean/bootstrap.css" rel="stylesheet" />
+    @*<link href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/3.3.4/cerulean/bootstrap.css" rel="stylesheet" />*@
     <script src="~/Scripts/bootstrap.js"></script>
     <script src="~/Scripts/angular.js"></script>
+    
 </head>
-<body ng-controller="MainCtrl as ctrl ">
+<body  >
     <div class="">
         @RenderBody()
     </div>
@@ -82,6 +83,9 @@
                 ];
             }
         ]);
+
+          
+        
     </script>
 </body>
     

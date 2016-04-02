@@ -14,6 +14,11 @@ namespace EntityConsoleApp.ConfigurationMappers
             Property(l => l.Name).IsRequired().HasMaxLength(200);
             Property(l => l.Owner).IsUnicode();
             Property(l => l.MilesFromNearestAirport).HasPrecision(8, 1);
+
+            HasOptional<Person>(l => l.PrimaryContact).WithMany(p => p.PrimaryContactFor);
+            HasOptional<Person>(l => l.SecondaryContact).WithMany(p => p.SecondaryContactFor);
+
+            HasRequired<Destination>(l => l.Destination).WithMany(d => d.Lodgings).WillCascadeOnDelete(false); 
         }
     }
 }

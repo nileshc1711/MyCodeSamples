@@ -39,6 +39,7 @@ namespace EntityConsoleApp.Models
         public DbSet<Lodging> Lodgings { get; set; }
         public DbSet<Trip> Trips { get; set; }
         public DbSet<Person> Persons { get; set; }
+        public DbSet<InternetSpecial> InternetSpecials { get; set; } 
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {

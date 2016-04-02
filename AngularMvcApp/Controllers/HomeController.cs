@@ -20,5 +20,10 @@ namespace AngularMvcApp.Controllers
         {
             return View();
         }
+
+        public ActionResult NgPracticeDemo() 
+        {
+            return View();
+        }
     }
 }

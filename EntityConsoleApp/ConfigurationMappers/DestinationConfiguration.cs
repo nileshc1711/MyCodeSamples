@@ -14,7 +14,9 @@ namespace EntityConsoleApp.ConfigurationMappers
             Property(d => d.Name).IsRequired();
             Property(d => d.Description).HasMaxLength(500);
             Property(d => d.Photo).HasColumnType("Image");
-        
+
+            
+
         }
     }
 }

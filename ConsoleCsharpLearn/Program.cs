@@ -13,12 +13,12 @@ namespace ConsoleCsharpLearn
     {
         static void Main(string[] args)
         {
-            ArgumentTest text = new ArgumentTest();
+            //ArgumentTest text = new ArgumentTest();
 
-            TimePeriod t = new TimePeriod();
-            Console.WriteLine("Time in Hours" + t.Hours);
-            t.Hours = 34;
-            Console.WriteLine("Time in Hours" + t.Hours);
+            //TimePeriod t = new TimePeriod();
+            //Console.WriteLine("Time in Hours" + t.Hours);
+            //t.Hours = 34;
+            //Console.WriteLine("Time in Hours" + t.Hours);
 
             //LINQ
             //var commaCultures = from culture in CultureInfo.GetCultures(CultureTypes.AllCultures)
@@ -161,8 +161,8 @@ namespace ConsoleCsharpLearn
             //    Console.WriteLine(i);
             //}
 
-            var numbers = new[] {-4,-3,-6,0, 1, 2, 0,-2,-5, 56, 465 };
-            Console.WriteLine(Ch5Collections.GetIndexOfFirstNonEmptyBin(numbers));
+            //var numbers = new[] {-4,-3,-6,0, 1, 2, 0,-2,-5, 56, 465 };
+            //Console.WriteLine(Ch5Collections.GetIndexOfFirstNonEmptyBin(numbers));
 
             //sCounter sc = new sCounter();
             //sc++;
@@ -172,6 +172,18 @@ namespace ConsoleCsharpLearn
             //Int32 c2 = c1;
             //Int32 c3 = new Int32();
             //c3++;
+            Counter c1 = new Counter();
+            Counter c2 = c1;
+            c1++;
+            Console.WriteLine("c1: " + c1.Count);
+            c1++;
+            Console.WriteLine("c1: " + c1.Count);
+            c1.GetNextValue();
+            Console.WriteLine("c1: " + c1.Count);
+            c2++;
+            Console.WriteLine("c2: " + c2.Count);
+            c1++;
+            Console.WriteLine("c1: " + c1.Count);
             //Console.WriteLine(c1);
             //Console.WriteLine(c2);
             //Console.WriteLine(c3);

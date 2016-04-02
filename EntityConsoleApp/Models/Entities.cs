@@ -59,11 +59,28 @@ namespace EntityConsoleApp.Models
         public int LodgingId { get; set; }
         [MinLength(10)]
         public string Name { get; set; }
+        public Person PrimaryContact { get; set; }
+        public Person SecondaryContact { get; set; }
         public string Owner { get; set; }
         public bool IsResort { get; set; }
         public decimal MilesFromNearestAirport { get; set; }
+        public int DestinationId { get; set; }
 
         public Destination Destination { get; set; }
+        public List<InternetSpecial> InternetSpecials { get; set; }
+    }
+
+    public class InternetSpecial {
+        public int InternetSpecialId { get; set; }
+        public int Nights { get; set; }
+        public decimal CostUSD { get; set; }
+        public DateTime FromDate { get; set; }
+        public DateTime ToDate { get; set; }
+
+        public int AccomodationId { get; set; }
+
+        public Lodging Accomodation { get; set; }
+    
     }
 
     public class Trip
@@ -101,6 +118,9 @@ namespace EntityConsoleApp.Models
         public string LastName { get; set; }
         public PersonalInfo Info { get; set; }
         public Address Address { get; set; }
+
+        public List<Lodging> PrimaryContactFor { get; set; }
+        public List<Lodging> SecondaryContactFor { get; set; }
     }
 
     #region Complex Type -Example

@@ -10,15 +10,19 @@ namespace EntityConsoleApp
     {
         static void Main(string[] args)
         {
+            /*database Initializers*/
             EntityTest.Initialize();
 
+            /*VetContext Context Methods*/
+            //EntityTest.CreateNewPatient();
 
-           // EntityTest.CreateNewPatient();
+            /*BreakAway Context Methods*/
            // EntityTest.InsertDestination();
-            EntityTest.InsertTrip();
-            EntityTest.InsertPerson();
-            EntityTest.UpdateTrip();
-            EntityTest.UpdatePerson();
+           // EntityTest.InsertTrip();
+            //EntityTest.InsertPerson();
+            //EntityTest.UpdateTrip();
+            //EntityTest.UpdatePerson();
+            EntityTest.DeleteDestinationInMemoryAndDbCascade();
         }
     }
 }
